@@ -7,5 +7,5 @@ function solution(s) {
     }
 }
 
-console.log(solution("131"))
-// console.log(solution("1a31"))
+console.log(solution("1315"))
+console.log(solution("1a31"))
