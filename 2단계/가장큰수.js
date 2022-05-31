@@ -22,7 +22,6 @@ function solution(numbers) {
 function solution(numbers) {
     var answer = '';
     numbers.sort((a,b)=>sortFunc(a,b))
-    numbers
     answer = numbers.join('')
     if(answer[0] === '0') return '0'
     return answer;
