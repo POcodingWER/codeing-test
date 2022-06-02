@@ -27,7 +27,7 @@ function solution(numbers) {
     return answer;
 }
 const sortFunc =  (a,b) =>{
-    const compareA = parseInt(a.toString() + b.toString())
+    const compareA = parseInt(a.toString() + b.toString())  //글자로바꿔서 큰글자찾는거같은디..
     compareA
     const compareB = parseInt(b.toString() + a.toString())
     compareB
